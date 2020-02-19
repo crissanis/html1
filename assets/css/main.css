@@ -216,14 +216,14 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: #E91E63;
+  background-color: #00bfff;
   position: relative;
   z-index: 1;
 }
 
 .btn-common:hover {
   color: #fff;
-  background: #F50057;
+  background: #282827;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -913,7 +913,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .counter-section {
-  background: #E91E63;
+  background: #00bfff;
   overflow: hidden;
   position: relative;
   /* 
@@ -2218,4 +2218,33 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   border-color: #fff;
+}
+
+
+.main-bg {
+    background-image: url(../img/slider/slide1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    bottom: auto;
+    left: 0;
+    min-height: 600px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.contendore {
+  min-height: 600px;
+}
+
+.form-wrapper {
+  /* bottom: 36px; */
+  box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+  /* left: 15px; */
+  padding: 30px 25px 20px;
+  /* position: absolute; */
+  right: 15px;
+  border-radius: 5px;
 }
