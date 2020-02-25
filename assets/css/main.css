@@ -2240,11 +2240,36 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .form-wrapper {
-  /* bottom: 36px; */
-  box-shadow: 0 3px 10px rgba(0,0,0,0.8);
-  /* left: 15px; */
-  padding: 30px 25px 20px;
-  /* position: absolute; */
-  right: 15px;
-  border-radius: 5px;
+    /* bottom: 36px; */
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+    /* left: 15px; */
+    padding: 30px 25px 20px;
+    /* position: absolute; */
+    right: 15px;
+    border-radius: 5px;
+    background: #000;
+    opacity: 0.8;
+    padding-top: 5px;
+}
+.form-wrapper h4,
+.form-wrapper label {
+  color: #fff;
+}
+.textoss {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
+.form-pie {
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  display: block;
+}
+textarea#message {
+  max-height: 70px;
+}
+p.descripcurso {
+  font-size: 16px;
+  text-align: justify;
 }
