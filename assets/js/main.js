@@ -76,6 +76,15 @@
         }, 600);
         return false;
       });
+      
+      $('.toform').on('click',function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, 600);
+        return false;
+      });
+
 
   });      
 
